@@ -10,7 +10,7 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Census + PLACES at repo root (duplicates; notebook uses raw_data/ only)
+# Census + PLACES at repo root (optional local duplicates; notebook uses raw_data/ only)
 /B08201 HOUSEHOLD SIZE BY VEHICLES AVAILABLE/
 /B11003FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN UNDER 18 YEARS/
 /B25003-Tenure/
@@ -20,6 +20,11 @@ __pycache__/
 /S2301EMPLOYMENT/
 /PLACES__Census_Tract_Data_*.csv
 
-# raw_data holds symlinks or copies of the above; not tracked (see raw_data/README.md)
-raw_data/*
-!raw_data/README.md
+# raw_data: keep folder scaffold in git, but not the large raw datasets
+# (GitHub hard-limit is 100MB per file; use raw_data.zip via Releases instead)
+raw_data/*.csv
+raw_data/**/*.csv
+raw_data/**/*.txt
+
+# Raw data bundle (upload as a Release asset, not committed)
+raw_data.zip
