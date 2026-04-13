@@ -1,0 +1,25 @@
+# Virtualenv
+.venv/
+
+# OS / editor
+.DS_Store
+.cursor/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Census + PLACES at repo root (duplicates; notebook uses raw_data/ only)
+/B08201 HOUSEHOLD SIZE BY VEHICLES AVAILABLE/
+/B11003FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN UNDER 18 YEARS/
+/B25003-Tenure/
+/B25014TENURE BY OCCUPANTS PER ROOM/
+/S1501-Educational Attainment/
+/S1701-Poverty/
+/S2301EMPLOYMENT/
+/PLACES__Census_Tract_Data_*.csv
+
+# raw_data holds symlinks or copies of the above; not tracked (see raw_data/README.md)
+raw_data/*
+!raw_data/README.md

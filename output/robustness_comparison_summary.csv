@@ -1,0 +1,3 @@
+outcome,coef_main_index,loo_coef_min,loo_coef_max,loo_omitted_at_min_coef,loo_omitted_at_max_coef,loo_span,loo_all_coef_positive,loo_all_p_lt_0.05,any_loo_nonsignificant,any_loo_rel_gap_gt_15pct_vs_main
+MHLTH_CrudePrev,3.5418544231452467,3.154320176761245,3.6363794618096663,nonemployed_u65_pct,renter_pct,0.4820592850484213,True,True,False,False
+OBESITY_CrudePrev,4.491205295555385,3.859901470303045,4.981527986389656,nonemployed_u65_pct,renter_pct,1.1216265160866108,True,True,False,False

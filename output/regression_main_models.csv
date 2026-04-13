@@ -1,0 +1,3 @@
+model,outcome,predictor,coef,se,pvalue,r2,n
+main_disadvantage_index,MHLTH_CrudePrev,disadvantage_index,3.5418544231452467,0.013414233687546672,0.0,0.4985146335138432,70133
+main_disadvantage_index,OBESITY_CrudePrev,disadvantage_index,4.491205295555385,0.032186811232494145,0.0,0.21729823169410312,70133
