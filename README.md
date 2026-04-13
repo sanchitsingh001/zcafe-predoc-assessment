@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Running
 
-1. **Data (required):** Download `raw_data.zip` from this repo’s **Releases**, unzip it into the project root so you have a `raw_data/` directory containing the ACS folders + the `PLACES*.csv`. The notebook reads only from `raw_data/`.
+1. **Data (required):** Download `raw_data.zip` from Google Drive: `https://drive.google.com/file/d/1NQ_7cVUzNHQtc8xA53EdZ0tsj8ciXB-f/view?usp=sharing` and unzip it into the project root so it creates a `raw_data/` directory (ACS folders + the `PLACES*.csv`). The notebook reads only from `raw_data/`.
 2. **Start Jupyter** (with the venv activated):
 
    ```bash
