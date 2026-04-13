@@ -21,6 +21,6 @@ pip install -r requirements.txt
    jupyter notebook predoc_assessment_pipeline.ipynb
    ```
 
-   Or use JupyterLab / VS Code / Cursor to open the notebook and run all cells from the top.
+   Or use any IDE to open the notebook and run all cells from the top.
 
 **Python:** 3.10+ recommended.
