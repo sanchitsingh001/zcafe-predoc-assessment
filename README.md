@@ -35,17 +35,6 @@ After unzipping, the project should contain a `raw_data/` directory with:
 
 The notebook reads input files **only** from `raw_data/`.
 
-## Running the analysis
-
-With the virtual environment activated, launch Jupyter:
-
-```bash
-jupyter notebook predoc_assessment_pipeline.ipynb
-```
-
-Then run all cells from top to bottom.
-
-You can also open the notebook in VS Code, JupyterLab, or another IDE and run all cells in order.
 
 ## Reproducibility notes
 
